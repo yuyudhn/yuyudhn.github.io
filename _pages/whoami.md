@@ -14,6 +14,7 @@ Learn hacking through the underground forum [**HN Community**](https://web.archi
 
 ## Professional Certification
 
+- OffSec Experienced Penetration Tester (OSEP)
 - OffSec Certified Professional (OSCP)
 - Certified Red Team Professional (CRTP)
 - Practical Network Penetration Tester (PNPT)
