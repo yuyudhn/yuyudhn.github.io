@@ -4,11 +4,11 @@ title: "About"
 classes: wide
 layout: single
 header:
-  og_image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjoFLd2eV4jbSIf_ju1UM7fHJaeHyC5Z5SpZ16om41JoPEVIot58-PQGHhx4fTVoxSs6ib7AP1T0HBMx2HXxRt8FN-5swjYnh8UqFAHkSG-JXLp9iRMbXfS-BLUm2Ff-J3CaA9XPa_xzJpe7mrtoLjk8DpmxwEf2UvxPLtom8whsflmLiQE_U7Yi9cA/s700
+  og_image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuWxuQTLH_c61FqWtLTjm8OKcMnW8MM1mG2PXcrYV-pmQFHtS43OAAmE4mTdeqrxaogBv65Rc2eKBIY6BYqBjsVZSLRqcinNKvPOsPfEhuyBkk9wi7VHHy1JGyuSLuwz2qn7y1QjxbaLMgREZrrVgHcDV5iYStf3RgEaVt-1WB3kMoGiMRBldStC5NKS4/s700/antabaka.jpg
 ---
-![Asuka](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjoFLd2eV4jbSIf_ju1UM7fHJaeHyC5Z5SpZ16om41JoPEVIot58-PQGHhx4fTVoxSs6ib7AP1T0HBMx2HXxRt8FN-5swjYnh8UqFAHkSG-JXLp9iRMbXfS-BLUm2Ff-J3CaA9XPa_xzJpe7mrtoLjk8DpmxwEf2UvxPLtom8whsflmLiQE_U7Yi9cA/s700)
+![Asuka](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuWxuQTLH_c61FqWtLTjm8OKcMnW8MM1mG2PXcrYV-pmQFHtS43OAAmE4mTdeqrxaogBv65Rc2eKBIY6BYqBjsVZSLRqcinNKvPOsPfEhuyBkk9wi7VHHy1JGyuSLuwz2qn7y1QjxbaLMgREZrrVgHcDV5iYStf3RgEaVt-1WB3kMoGiMRBldStC5NKS4/s700/antabaka.jpg)
 ## Whoami
-I work as a **Cyber Security Consultant** and am passionate about cybersecurity, GNU/Linux, and open source technologies. I've been using Debian as my primary operating system since 2013. I'm also a fan of "Evangelion" and "My Hero Academia". Additionally, I am a huge admirer of the GOAT, [Cristiano Ronaldo](https://id.wikipedia.org/wiki/Cristiano_Ronaldo).
+I work as a **Cyber Security Consultant** and I am passionate about cybersecurity, GNU/Linux, and open source technologies. I've been using Debian as my primary operating system since 2013. I'm also a fan of "Evangelion" and "My Hero Academia". Additionally, I am a huge admirer of the GOAT, [Cristiano Ronaldo](https://id.wikipedia.org/wiki/Cristiano_Ronaldo).
 
 Learn hacking through the underground forum [**HN Community**](https://web.archive.org/web/20120101160329/http://hacker-newbie.org/), which is the largest Indonesian hacker newbie community.
 
