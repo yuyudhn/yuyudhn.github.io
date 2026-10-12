@@ -209,32 +209,59 @@ main p:last-child { margin-bottom: 0; }
   border-bottom-color: var(--red);
 }
 
-.proj {
+.tools {
   list-style: none;
-  margin: 8px 0 0;
+  margin: 14px 0 0;
   padding: 0;
-}
-.proj li {
   display: grid;
-  grid-template-columns: minmax(8em, 11em) 4.5em minmax(0, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 12px;
-  align-items: baseline;
-  padding: 9px 0;
-  border-top: 1px solid var(--line);
-  font-size: 0.92rem;
 }
-.proj li:last-child { border-bottom: 1px solid var(--line); }
-.proj a {
-  font-weight: 500;
+.tool {
+  position: relative;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--ink) 2.5%, transparent);
+  padding: 14px 16px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  transition: border-color .15s ease;
+}
+.tool::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 6px;
+  height: 6px;
+  background: var(--line);
+  transition: background .15s ease;
+}
+.tool:hover { border-color: var(--red); }
+.tool:hover::after { background: var(--amber); }
+.t-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+}
+.t-idx { color: var(--amber); }
+.t-lang { color: var(--muted); text-transform: uppercase; }
+.t-name {
+  font-weight: 600;
+  font-size: 0.98rem;
+  letter-spacing: -0.01em;
   text-decoration: none;
 }
-.proj a:hover { color: var(--red); }
-.lang {
-  font-family: "IBM Plex Mono", ui-monospace, monospace;
-  font-size: 0.72rem;
+.t-name:hover { color: var(--amber); }
+.t-desc {
   color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.45;
 }
-.desc { color: var(--muted); }
 .more { margin-top: 14px !important; color: var(--muted); font-size: 0.92rem; }
 
 .mail {
@@ -273,15 +300,7 @@ footer {
   .id h1 { font-size: 2rem; }
   .tagline { max-width: none; }
   .socials { justify-content: center; }
-  .proj li {
-    grid-template-columns: 1fr auto;
-    grid-template-areas:
-      "name lang"
-      "desc desc";
-  }
-  .proj a { grid-area: name; }
-  .lang { grid-area: lang; }
-  .desc { grid-area: desc; }
+  .tools { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {
